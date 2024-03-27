@@ -1,0 +1,397 @@
+
+.body{
+    height: auto;
+    width: auto;
+}
+#aside{
+    height: 625px;
+    width: 400px;
+    border: 1px solid #ece5dd;
+    /* overflow-y: scroll;
+    overflow-x: hidden; */
+    position: fixed;
+    bottom: 0.5px;
+    font-family: Arial, 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+#nav{
+    border: 1px solid #ece5dd;
+    height: 100px;
+    width: 398px;
+    /* position: sticky;
+    top: 0px; */
+    background-color: white;
+}
+#profil{
+    height: 48px;
+    border: 1px solid #ece5dd;
+    background-color: #ece5dd;
+}
+.profil-container{
+    position: relative;
+    left: px;
+    border: 1px solid #ece5dd;
+    height: 40px;
+    width: 130px;
+}
+.profil-img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+}
+.icons{
+    border: 0px solid ;
+    height: 40px;
+    width: 260px;
+    position: relative;
+    left: 132px;
+    bottom: 41px;
+    /* margin-left: 136px;
+    margin-top: 1px; */
+
+}
+.i-c{
+    height: 38px;
+    width: 38px;
+    border: solid 1px #ece5dd;
+    display: inline-block;
+    position: relative; 
+    text-align: center; 
+}
+.ic1{
+    position: relative;
+    left: 28px;
+    bottom:3px;
+}
+.ic2{
+    position: relative;
+    left: 28px;
+    bottom: 7px;
+}
+.ic3{
+    position: relative;
+    left: 28px;
+    bottom: 7px;
+    
+}
+.ic4{
+    position: relative;
+    left: 28px;
+}
+.ic5{
+    position: relative;
+    bottom: 3px;
+    left: 28px;
+}
+.new-chat{
+    height: 32px;
+    width: 32px;
+    color: #000;
+    position: relative;
+    top: 2px;
+}
+.channal{
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: 5px;
+}
+.status{
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: 7px;
+}
+span{
+    margin-top: 5px;
+}
+.serch{
+    border: 0px solid  ;
+    height: 48px;
+    width: 398px;
+}
+.serch-icon{
+    border: 1px solid ;
+    border-left: 0px;
+    position: relative;
+    left: 4.5px;
+    top: 10px;
+    width: 65px;
+    height: 31px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius:8px ;
+    border: none;
+    background-color: #ece5dd ;
+}
+.s-i{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 6px;
+    left: 15px;
+    padding-bottom: 9px;    
+}
+.inp{
+    height: 29px;
+    width: 280px;
+    position: relative;
+    left: 70px;
+    bottom: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius:8px ;
+    border: none;
+    outline: none;
+    background-color:#ece5dd;
+    font-size: 16.5px;
+}
+.chat-filtar{
+    border: 1px solid transparent;
+    height: 40px;
+    width: 38px;
+    position: relative;
+    left: 355px;
+    bottom: 70px;
+}
+.filter_list{
+    position: relative;
+    left: 5px;
+    top: 14px;
+}
+#contacts{
+    border: 1px solid #ece5dd;
+    height: 522.2px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+ ::-webkit-scrollbar{
+    background-color:whitesmoke;
+    width: 2px;
+ }
+
+ #chat-box{
+    border: 1px solid #ece5dd;
+    border-right: rgb(50, 44, 44);
+    height: 625px;
+    width: 950px;
+    position: fixed;
+    left: 408px;
+    bottom: 0.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#ece5dd ; 
+    
+}
+.display{
+    height: 188px;
+    width: 320px;
+    position: relative;
+    bottom: 108px;
+    /* right: 10px; */
+    
+}
+.ct1{
+    border: 0px solid #ece5dd;
+    height: 70px;
+    width: 396.2px;
+    position: relative;
+    right: 1px;
+    display: inline-flex;
+}
+ .ct1:hover{
+    background-color: #ece5dd;
+ }
+.Bhattu{
+    border: 0px solid white;
+    height: 71px;
+    width: 70px;
+    position: relative;
+    bottom: 2px;
+    right: 2px;
+}
+.b-t{
+    height: 50px;
+    width: 50px ;
+    border-radius: 50px;
+    position: relative;
+    top: 5px;
+    right: 2px;
+}
+.Neme{
+    border: 0px solid;
+    height: 70px;
+    width: 395px;
+    position: relative;
+    right: 3px;
+    bottom: 1px;
+}
+.Name-n{
+    position: relative;
+    bottom: 14px;
+    font-size: 14.5px;
+    color:rgb(123, 117, 117);
+}
+p{
+    position: relative;
+    left: 12px;
+}
+.b-t{
+    height: 50px;
+    width: 50px ;
+    border-radius: 50px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+hr{
+    position: relative;
+    bottom: 15px;
+    left: 3px;
+    width: 322px;
+    color: gainsboro;
+}
+/*.cb{
+    height: 49px;
+    width: 950px;
+    border: 1px solid rgb(220, 230, 230);
+    background-color: rgb(220, 230, 230);
+    
+}
+.cb1{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    justify-content: space-around;
+}
+.cont{
+    height: 40px;
+    width: 200px;
+    flex-grow: 1;
+}
+.vc{
+    height: 30px;
+    width: 58px;
+    border: 0px solid;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vc-img{
+    height: 24px;
+    width: 24px;
+    position: relative;
+    left: 8px;
+}
+.ar{
+    position: relative;
+    /* bottom: 2px; 
+}
+.ser{
+    height: 40px;
+    width: 40px;
+    border: 0px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 10px;
+}
+.mnu{
+    height: 40px;
+    width: 40px;
+    border: 0px solid;
+    border-radius: 100px;
+    position: relative;
+    right:15px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profil-img1{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+    position: relative;
+}
+.name{
+    position: relative;
+    bottom: 33px;
+    left: 60px;
+    border: 1px solid rgb(220, 230, 230);
+    height: 20px;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.cb2{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    height: 54px;
+}
+.emoji{
+    position: relative;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border: 1px solid rgb(220, 230, 230);
+}
+.em{
+    height: 24px;
+    width: 24px;
+}
+.plus{
+    position: relative;
+    left: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border: 1px solid rgb(220, 230, 230);
+}
+.input1{
+    position: relative;
+    left: 20px;
+    height: 35px;
+    width: 762px;
+    border-radius: 7px;
+    border: 1px solid;
+    font-size: 14.50px;
+    border: none;
+    outline: none;
+    background-color: white;
+    
+}
+.voice{
+    height: 40px;
+    width: 40px;
+    border: 1px solid rgb(220, 230, 230);
+    position: relative;
+    left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.micro{
+    height: 27px;
+    width: 27px;
+    color: #000;
+} */
+
+
+
